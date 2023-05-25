@@ -1,0 +1,209 @@
+﻿/** HEADER SECTİON **/
+
+.navbar {
+	border-bottom: #FFFFFF 3px solid;
+}
+
+.headerSection {
+	width: 100%;
+	background: url(../images/musicstudio.jpg) no-repeat center center fixed;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.design {
+	margin-left: 100px;
+}
+
+.headerSection h1 {
+	font-family: 'Kalam', cursive;
+	color: #b7b7b7;
+}
+
+/* ABOUT-US */
+
+#aboutus .img1 {
+	position: absolute;
+}
+
+#aboutus .img2 {
+	position: absolute;
+}
+
+#aboutus h1 {
+	text-align: center;
+}
+
+/* INFORMATION */
+
+.information h3 {
+	border-left: 6px solid #1886C7;
+  background-color: lightgrey;
+}
+
+.information .imageInformationimgleft {
+	border-style: solid;
+    border-width: 20px;
+}
+
+.information .imageInformationimgright {
+	 border-style: solid;
+  border-width: 10px 0px 10px 10px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: dotted;
+
+}
+
+.information .imageInformationimgleft {
+	position: relative;
+	cursor: pointer;
+}
+
+.imageInformationimgleft {
+	height: 100%;
+	width: 100%;
+	transition: 1s ease;
+}
+
+.imageInformationimgright {
+	height: 100%;
+	width: 100%;
+	transition: 1s ease;
+}
+
+.imageContainer:hover .imageInformationimgleft {
+	opacity: 0.2;
+}
+
+.imageContainer:hover .imageInformationimgright {
+	opacity: 0.2;
+}
+
+
+/* contact us*/
+
+.contactUs {
+	background-color: #424242;
+	color: white;
+}
+
+#ContactUs {
+	padding: 70px 0;
+}
+#ContactUs .contact-title {
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	margin: 0 0 30px;
+}
+#ContactUs .contact-outer-wrapper {
+	width: 100%;
+	height: auto;
+	display: table;
+	margin: 0 auto;
+}
+#ContactUs .address-block {
+	width: 40%;
+	height: 100%;
+	display: table-cell;
+	color: #333;
+	position: relative;
+	padding: 40px;
+}
+#ContactUs .address-block::after {
+  position: absolute;
+  content: "";
+  right: 3%;
+  width: 1px;
+  height: 80%;
+  background: #ccc;
+  top: 10%;
+}
+#ContactUs .add-title {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0 0 50px;
+}
+#ContactUs .c-detail {
+	margin-bottom: 20px;
+}
+#ContactUs .c-detail:last-child {
+	margin-bottom: 0;
+}
+#ContactUs .c-detail .c-icon {
+  width: 8%;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+}
+#ContactUs .c-detail .c-info {
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+}
+#ContactUs .c-detail span .fa {
+	vertical-align: top;
+}
+#ContactUs .form-wrap {
+	width: 60%;
+	display: table-cell;
+	padding: 40px;
+}
+#ContactUs .form-wrap .floating-label {
+	position: relative;
+	width: 47%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+#ContactUs .form-wrap .fname, #ContactUs .form-wrap .contact {
+	margin-right: 20px;
+}
+#ContactUs .form-wrap .user-msg {
+	width: 98%;
+	display: block;
+	margin-bottom: 40px;
+}
+#ContactUs .floating-input {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #999999;
+	box-shadow: none;
+	background-color: transparent;
+	padding-top: 3px;
+}
+#ContactUs .floating-input:focus {
+	outline: 0;
+}
+#ContactUs .form-wrap label {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 14px;
+	text-align: left;
+	color: #999999;
+	transition: top 0.2s ease-in-out;
+	z-index: -1;
+	margin: 0;
+}
+
+#ContactUs .submit-btn {
+	text-align: center;
+}
+#ContactUs .submit-btn button {
+	font-size: 16px;
+	border: 0;
+	border-radius: 0;
+	background-color: #0098aa;
+	color: #fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	outline: 0;
+}
+#ContactUs .submit-btn button:hover {
+	background-color: rgba(0,152,170,0.8);
+}
+
